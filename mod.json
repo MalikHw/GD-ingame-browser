@@ -3,12 +3,12 @@
     "gd": {
         "win": "2.2081"
     },
-    "version": "1.0.0",
+    "version": "1.0.0-beta",
     "id": "malikhw47.browser",
-    "name": "browser",
-    "developer": "MalikHw",
-    "description": "desc.",
-    "tags": ["utility"],
+    "name": "Ingame Browser",
+    "developer": "MalikHw47",
+    "description": "Browser inside of GD",
+    "tags": ["utility", "online", "interface"],
     "settings": {
         "toggle-browser": {
             "name": "Window keybind",
