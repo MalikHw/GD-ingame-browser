@@ -67,7 +67,7 @@ class $modify(BrowserCCEGLViewHook, CCEGLView) {
 
 #else
 $on_mod(Loaded) {
-    log::warn("claude.browser only supports Windows; doing nothing on this platform.");
+    log::warn("This mod only supports Windows; doing nothing on this platform.");
 }
 
 #endif
