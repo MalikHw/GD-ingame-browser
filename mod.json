@@ -1,0 +1,63 @@
+{
+    "geode": "5.11.2",
+    "gd": {
+        "win": "2.2081"
+    },
+    "version": "1.0.0",
+    "id": "malikhw47.browser",
+    "name": "browser",
+    "developer": "MalikHw",
+    "description": "desc.",
+    "tags": ["utility"],
+    "settings": {
+        "toggle-browser": {
+            "name": "Window keybind",
+            "description": "Keybind used to show or hide the browser window",
+            "type": "keybind",
+            "default": "F6",
+            "allow-in-text-inputs": false
+        },
+        "search-engine": {
+            "name": "Search engine",
+            "type": "string",
+            "default": "duckduckgo",
+            "one-of": ["duckduckgo", "brave", "google", "bing", "yandex"]
+        },
+        "site-volume": {
+            "name": "Website sound",
+            "description": "Volume applied to media elements in the current page",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.0,
+            "max": 1.0,
+            "control": {
+                "slider": true,
+                "slider-step": 0.05,
+                "input": true
+            }
+        },
+        "clear-cache": {
+            "name": "Clear browser cache",
+            "type": "custom:browser-data-button"
+        },
+        "clear-site-data": {
+            "name": "Clear cookies and site data",
+            "type": "custom:browser-data-button"
+        }
+    },
+    "links": {
+        "source": "https://github.com/MalikHw/browser",
+        "community": "https://discord.gg/G9bZ92eg2n"
+    },
+	"dependencies": {
+        "geode.node-ids": {
+            "version": ">=v1.23.3",
+            "required": true
+        }
+    },
+    "resources": {
+        "files": [
+            "resources/OpenSans-Medium.ttf"
+        ]
+    }
+}
