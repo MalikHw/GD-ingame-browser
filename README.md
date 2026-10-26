@@ -1,4 +1,4 @@
-![geode](https://img.shields.io/github/downloads/MalikHw/browser/total?logo=geode&color=8D7ACF)
+![geode](https://img.shields.io/github/downloads/MalikHw/gd-ingame-browser/total?logo=geode&color=8D7ACF)
 
 
 <a href="https://www.star-history.com/?repos=MalikHw%2Fbrowser&type=date&legend=top-left">
