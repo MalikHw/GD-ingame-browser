@@ -2,7 +2,7 @@
 
 A tabbed, in-game browser you can pop open over Geometry Dash.
 btw It's a real Microsoft Edge WebView2 web page, composited into an ImGui window.
-
+### SEMI-VIBECODED SLOP. so wont be on the geode index, its just here for fun
 ### Usage
 
 - **F6** (Bindable): show/hide the browser.
